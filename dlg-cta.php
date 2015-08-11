@@ -9,10 +9,8 @@
 
 function dlg_cta($atts, $content = null) {
     extract( shortcode_atts( array(
-        'bgcolor' => 'blue',
-        'color' => '#000'
     ), $atts ) );
-    $return_string = '<div style="background: ' . $bgcolor . '; color: ' . $color . ';">' . $content . '</div>';
+    $return_string = '<div style="background: #b5b6c0; color= #000;">' . $content . '</div>';
     return $return_string; 
 }
 
