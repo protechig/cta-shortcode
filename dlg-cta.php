@@ -10,7 +10,7 @@
 function dlg_cta($atts, $content = null) {
     extract( shortcode_atts( array(
     ), $atts ) );
-    $return_string = '<div style="background: #b5b6c0; color= #000;">' . $content . '</div>';
+    $return_string = '<div style="background: #94B8DA; font-size: 1.5em; padding: 30px; margin: 20px;">' . $content . '</div>';
     return $return_string; 
 }
 
